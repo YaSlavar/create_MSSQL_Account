@@ -1,0 +1,300 @@
+CREATE DATABASE Ajmaletdinov;
+GO
+create login Ajmaletdinov
+with password='vonidtelamjA'
+use Ajmaletdinov;
+create user Ajmaletdinov for login Ajmaletdinov
+with default_schema = dbo;
+alter role db_owner add member Ajmaletdinov;
+alter login Ajmaletdinov with default_database = Ajmaletdinov;
+
+CREATE DATABASE Ashirov;
+GO
+create login Ashirov
+with password='vorihsA'
+use Ashirov;
+create user Ashirov for login Ashirov
+with default_schema = dbo;
+alter role db_owner add member Ashirov;
+alter login Ashirov with default_database = Ashirov;
+
+CREATE DATABASE Balakina;
+GO
+create login Balakina
+with password='anikalaB'
+use Balakina;
+create user Balakina for login Balakina
+with default_schema = dbo;
+alter role db_owner add member Balakina;
+alter login Balakina with default_database = Balakina;
+
+CREATE DATABASE Boborykin;
+GO
+create login Boborykin
+with password='nikyroboB'
+use Boborykin;
+create user Boborykin for login Boborykin
+with default_schema = dbo;
+alter role db_owner add member Boborykin;
+alter login Boborykin with default_database = Boborykin;
+
+CREATE DATABASE Voronina;
+GO
+create login Voronina
+with password='aninoroV'
+use Voronina;
+create user Voronina for login Voronina
+with default_schema = dbo;
+alter role db_owner add member Voronina;
+alter login Voronina with default_database = Voronina;
+
+CREATE DATABASE Grib;
+GO
+create login Grib
+with password='birG'
+use Grib;
+create user Grib for login Grib
+with default_schema = dbo;
+alter role db_owner add member Grib;
+alter login Grib with default_database = Grib;
+
+CREATE DATABASE Dzhafarov;
+GO
+create login Dzhafarov
+with password='vorafahzD'
+use Dzhafarov;
+create user Dzhafarov for login Dzhafarov
+with default_schema = dbo;
+alter role db_owner add member Dzhafarov;
+alter login Dzhafarov with default_database = Dzhafarov;
+
+CREATE DATABASE Dolinina;
+GO
+create login Dolinina
+with password='aniniloD'
+use Dolinina;
+create user Dolinina for login Dolinina
+with default_schema = dbo;
+alter role db_owner add member Dolinina;
+alter login Dolinina with default_database = Dolinina;
+
+CREATE DATABASE Dunajtsev;
+GO
+create login Dunajtsev
+with password='vestjanuD'
+use Dunajtsev;
+create user Dunajtsev for login Dunajtsev
+with default_schema = dbo;
+alter role db_owner add member Dunajtsev;
+alter login Dunajtsev with default_database = Dunajtsev;
+
+CREATE DATABASE Ilin;
+GO
+create login Ilin
+with password='nilI'
+use Ilin;
+create user Ilin for login Ilin
+with default_schema = dbo;
+alter role db_owner add member Ilin;
+alter login Ilin with default_database = Ilin;
+
+CREATE DATABASE Karpov;
+GO
+create login Karpov
+with password='vopraK'
+use Karpov;
+create user Karpov for login Karpov
+with default_schema = dbo;
+alter role db_owner add member Karpov;
+alter login Karpov with default_database = Karpov;
+
+CREATE DATABASE Klimchenko;
+GO
+create login Klimchenko
+with password='oknehcmilK'
+use Klimchenko;
+create user Klimchenko for login Klimchenko
+with default_schema = dbo;
+alter role db_owner add member Klimchenko;
+alter login Klimchenko with default_database = Klimchenko;
+
+CREATE DATABASE Korshunov;
+GO
+create login Korshunov
+with password='vonuhsroK'
+use Korshunov;
+create user Korshunov for login Korshunov
+with default_schema = dbo;
+alter role db_owner add member Korshunov;
+alter login Korshunov with default_database = Korshunov;
+
+CREATE DATABASE Kravchenko;
+GO
+create login Kravchenko
+with password='oknehcvarK'
+use Kravchenko;
+create user Kravchenko for login Kravchenko
+with default_schema = dbo;
+alter role db_owner add member Kravchenko;
+alter login Kravchenko with default_database = Kravchenko;
+
+CREATE DATABASE Kuznetsov;
+GO
+create login Kuznetsov
+with password='vostenzuK'
+use Kuznetsov;
+create user Kuznetsov for login Kuznetsov
+with default_schema = dbo;
+alter role db_owner add member Kuznetsov;
+alter login Kuznetsov with default_database = Kuznetsov;
+
+CREATE DATABASE Kurepin;
+GO
+create login Kurepin
+with password='niperuK'
+use Kurepin;
+create user Kurepin for login Kurepin
+with default_schema = dbo;
+alter role db_owner add member Kurepin;
+alter login Kurepin with default_database = Kurepin;
+
+CREATE DATABASE Kuresheva;
+GO
+create login Kuresheva
+with password='avehseruK'
+use Kuresheva;
+create user Kuresheva for login Kuresheva
+with default_schema = dbo;
+alter role db_owner add member Kuresheva;
+alter login Kuresheva with default_database = Kuresheva;
+
+CREATE DATABASE Muraveva;
+GO
+create login Muraveva
+with password='avevaruM'
+use Muraveva;
+create user Muraveva for login Muraveva
+with default_schema = dbo;
+alter role db_owner add member Muraveva;
+alter login Muraveva with default_database = Muraveva;
+
+CREATE DATABASE Pavlenko;
+GO
+create login Pavlenko
+with password='oknelvaP'
+use Pavlenko;
+create user Pavlenko for login Pavlenko
+with default_schema = dbo;
+alter role db_owner add member Pavlenko;
+alter login Pavlenko with default_database = Pavlenko;
+
+CREATE DATABASE Pankov;
+GO
+create login Pankov
+with password='voknaP'
+use Pankov;
+create user Pankov for login Pankov
+with default_schema = dbo;
+alter role db_owner add member Pankov;
+alter login Pankov with default_database = Pankov;
+
+CREATE DATABASE Panchev;
+GO
+create login Panchev
+with password='vehcnaP'
+use Panchev;
+create user Panchev for login Panchev
+with default_schema = dbo;
+alter role db_owner add member Panchev;
+alter login Panchev with default_database = Panchev;
+
+CREATE DATABASE Permogorskij;
+GO
+create login Permogorskij
+with password='jiksrogomreP'
+use Permogorskij;
+create user Permogorskij for login Permogorskij
+with default_schema = dbo;
+alter role db_owner add member Permogorskij;
+alter login Permogorskij with default_database = Permogorskij;
+
+CREATE DATABASE Petrij;
+GO
+create login Petrij
+with password='jirteP'
+use Petrij;
+create user Petrij for login Petrij
+with default_schema = dbo;
+alter role db_owner add member Petrij;
+alter login Petrij with default_database = Petrij;
+
+CREATE DATABASE Petrova;
+GO
+create login Petrova
+with password='avorteP'
+use Petrova;
+create user Petrova for login Petrova
+with default_schema = dbo;
+alter role db_owner add member Petrova;
+alter login Petrova with default_database = Petrova;
+
+CREATE DATABASE Poljakova;
+GO
+create login Poljakova
+with password='avokajloP'
+use Poljakova;
+create user Poljakova for login Poljakova
+with default_schema = dbo;
+alter role db_owner add member Poljakova;
+alter login Poljakova with default_database = Poljakova;
+
+CREATE DATABASE Rabochih;
+GO
+create login Rabochih
+with password='hihcobaR'
+use Rabochih;
+create user Rabochih for login Rabochih
+with default_schema = dbo;
+alter role db_owner add member Rabochih;
+alter login Rabochih with default_database = Rabochih;
+
+CREATE DATABASE Remizov;
+GO
+create login Remizov
+with password='vozimeR'
+use Remizov;
+create user Remizov for login Remizov
+with default_schema = dbo;
+alter role db_owner add member Remizov;
+alter login Remizov with default_database = Remizov;
+
+CREATE DATABASE Tepljakov;
+GO
+create login Tepljakov
+with password='vokajlpeT'
+use Tepljakov;
+create user Tepljakov for login Tepljakov
+with default_schema = dbo;
+alter role db_owner add member Tepljakov;
+alter login Tepljakov with default_database = Tepljakov;
+
+CREATE DATABASE Chusov;
+GO
+create login Chusov
+with password='vosuhC'
+use Chusov;
+create user Chusov for login Chusov
+with default_schema = dbo;
+alter role db_owner add member Chusov;
+alter login Chusov with default_database = Chusov;
+
+CREATE DATABASE Sharihin;
+GO
+create login Sharihin
+with password='nihirahS'
+use Sharihin;
+create user Sharihin for login Sharihin
+with default_schema = dbo;
+alter role db_owner add member Sharihin;
+alter login Sharihin with default_database = Sharihin;
+
